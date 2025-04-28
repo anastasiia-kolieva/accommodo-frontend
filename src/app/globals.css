@@ -32,16 +32,19 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 button {
   font-family: inherit;
   transition: black-color 0.2s, color 0.2s;
+  border-radius: var(--radius-sm);
 }
 
 input, textarea {
   font-family: inherit;
   border-radius: var(--radius-sm);
+  border: 1px solid #e0e0e0;
 }
 
 ::-webkit-scrollbar {

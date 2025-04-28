@@ -3,11 +3,11 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import dashboardIcon from '@/ui/icons/dashbard.svg';
-import apartmentsIcon from '@/ui/icons/apartments.svg';
-import reservationsIcon from '@/ui/icons/reservations.svg';
-import clientsIcon from '@/ui/icons/clients.svg';
-import paymentsIcon from '@/ui/icons/payments.svg';
+import dashboardIcon from '/public/icons/dashbard.svg';
+import apartmentsIcon from '/public/icons/apartments.svg';
+import reservationsIcon from '/public/icons/reservations.svg';
+import clientsIcon from '/public/icons/clients.svg';
+import paymentsIcon from '/public/icons/payments.svg';
 
 const Sidebar = () => {
   const [activePage, setActivePage] = useState('/');
